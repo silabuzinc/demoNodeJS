@@ -1,0 +1,19 @@
+{
+  "name": "demonodejs",
+  "version": "1.0.0",
+  "description": "Demo NodeJS Silabuz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch src src/server.js"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "Silabuz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
